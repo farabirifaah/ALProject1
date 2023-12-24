@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Your own server",
+      "request": "launch",
+      "type": "al",
+      "environmentType": "Sandbox",
+      "server": "https://businesscentral.dynamics.com/8fa45294-57a3-4876-b702-65e172484a44",
+      "environmentName": "Sandboxid",
+      "authentication": "AAD",
+      "startupObjectId": 22,
+      "startupObjectType": "Page",
+      "breakOnError": "All",
+      "launchBrowser": true,
+      "enableLongRunningSqlStatements": true,
+      "enableSqlInformationDebugger": true,
+      "tenant": "8fa45294-57a3-4876-b702-65e172484a44"
+    }
+  ]
+}
